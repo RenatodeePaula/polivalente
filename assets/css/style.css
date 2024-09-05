@@ -12,9 +12,9 @@
 }
 
 body {
-    
     font-size: 1.6rem;
     font-family: "Open Sans", sans-serif;
+    background-image: url('/assets/img/bg-app.jpeg');
     
 }
 
@@ -28,8 +28,7 @@ body {
 
     max-width: 64rem;
     margin:  5rem auto;
-    background: url(/assets/img/floresta.jpg) ;
-  
+     
     border-radius: 1rem;
 }
 
