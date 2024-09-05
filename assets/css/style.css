@@ -1,0 +1,122 @@
+:root {
+    --primary-color: rgb(114, 139, 250);
+    --primary-color-dark: rgb(9, 48, 56);
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+
+    max-width: 64rem;
+    margin:  5rem auto;
+    background: url(/assets/img/floresta.jpg) ;
+  
+    border-radius: 1rem;
+}
+
+.container .avatar {
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: 2rem;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+
+}
+
+.container form input {    
+    border-radius: 2rem;
+    border: 1px solid #ccc;
+    height: 2.5rem ;
+    padding: 1.4rem;
+}
+
+.forgot-password {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.to-enter {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    border: none;
+    border-radius: 2rem;
+    color: #fff;
+
+    background-color: var(--primary-color);
+    transition: ease-in-out 0.4s;
+}
+
+.to-enter:hover {
+    background-color: rgb(72, 72, 190);
+}
+
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+.social-network {
+    display: flex;
+    gap:4rem;
+}
+
+.sign-up {
+    border: 0.1rem solid var(--primary-color);
+    padding: 0.2rem 1rem;
+    background-color: transparent;
+    color: var(--primary-color);
+    border-radius: 2rem;
+    font-weight: 700;
+    
+
+}
+
+.sign-up:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 3rem;
+
+    gap: 1rem;
+
+
+}
+
+ p {
+    font-size: 1.6rem;
+}
