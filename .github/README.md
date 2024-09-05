@@ -1,4 +1,4 @@
-<h1 align="center">Todo Avançado </h1>
+<h1 align="center">Cadastro de Alunos </h1>
 
 <p align="center">
 #Projeto para cadastro de alunso com HTML e CSS. <br/>
