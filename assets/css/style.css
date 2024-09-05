@@ -17,7 +17,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image:  url('http://localhost:5500/assets/img/bg-app.jpeg');
+    background-image:  url('/assets/img/bg-app.jpeg');
     background-repeat: no-repeat;    
     
 }
@@ -90,13 +90,10 @@ form input:focus {
 }
 
 
-.social-network {
-    background: ;  
+.social-network {    
     display: flex;
     gap:4rem;
 }
-
-
 
 .sign-up {
     border: none;
