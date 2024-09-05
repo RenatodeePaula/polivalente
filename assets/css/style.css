@@ -103,6 +103,8 @@ form input:focus {
     font-weight: 700;  
     background-color: var(--primary-color);
     color: #fff;
+    transition: ease-in-out 0.4s;
+
 }
 
 
